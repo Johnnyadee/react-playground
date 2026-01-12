@@ -2,14 +2,15 @@
 // import logo from "./logo.svg";
 import "./App.css";
 // import Greet from "./Components/Greet";
-import Welcome from "./Components/Welcome";
+// import Welcome from "./Components/Welcome";
 // import Hello from "./Components/Hello";
-// import Message from "./Components/Message";
+// import Message from "./Components/Message";`
+import ClickFunction from "./Components/ClickFunction";
 
 function App() {
   return (
     <div className="App">
-      <Welcome name="John" username="johnny" />
+      <ClickFunction />
     </div>
   );
 }
