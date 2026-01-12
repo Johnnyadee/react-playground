@@ -1,7 +1,13 @@
 import React from "react";
 
-function Greet() {
-  return <h1>Welcome Henry</h1>;
-}
+const Greet = ({ name, username }) => {
+  return (
+    <div>
+      <h1>
+        Welcome {name}, your username is {username}
+      </h1>
+    </div>
+  );
+};
 
 export default Greet;
