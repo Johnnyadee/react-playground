@@ -6,12 +6,13 @@ class Eventbind extends Component {
     this.state = {
       message: "Hello, this is the first message",
     };
+    this.changeMessage = this.changeMessage.bind(this);
   }
 
   changeMessage() {
-    // this.setState({
-    //   message: "Hello, this is the second message",
-    // });
+    this.setState({
+      message: "Hello, this is the second message",
+    });
     console.log(this);
   }
 
