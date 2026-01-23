@@ -6,10 +6,10 @@ class Eventbind extends Component {
     this.state = {
       message: "Hello, this is the first message",
     };
-    this.changeMessage = this.changeMessage.bind(this);
+    // this.changeMessage = this.changeMessage.bind(this);
   }
 
-  changeMessage() {
+  changeMessage = () => {
     this.setState({
       message: "Hello, this is the second message",
     });
@@ -19,7 +19,7 @@ class Eventbind extends Component {
   render() {
     return (
       <div>
-        <p>{this.state.message}</p>
+        <p>{this.state.message}</p> 
         <button onClick={this.changeMessage}>Click Here</button>
       </div>
     );
