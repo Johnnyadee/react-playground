@@ -1,8 +1,9 @@
 // import React, { Component } from "react";0
 // import logo from "./logo.svg";
 import "./App.css";
+import UserGreeting from "./Components/UserGreeting";
 // import Eventbind from "./Components/Eventbind";
-import ParentComponent from "./Components/ParentComponent";
+// import ParentComponent from "./Components/ParentComponent";
 // import Greet from "./Components/Greet";
 // import Welcome from "./Components/Welcome";
 // import Hello from "./Components/Hello";
@@ -13,7 +14,7 @@ import ParentComponent from "./Components/ParentComponent";
 function App() {
   return (
     <div className="App">
-      <ParentComponent />
+      <UserGreeting />
     </div>
   );
 }
