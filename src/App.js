@@ -1,7 +1,8 @@
 // import React, { Component } from "react";0
 // import logo from "./logo.svg";
 import "./App.css";
-import Eventbind from "./Components/Eventbind";
+// import Eventbind from "./Components/Eventbind";
+import ParentComponent from "./Components/ParentComponent";
 // import Greet from "./Components/Greet";
 // import Welcome from "./Components/Welcome";
 // import Hello from "./Components/Hello";
@@ -12,7 +13,7 @@ import Eventbind from "./Components/Eventbind";
 function App() {
   return (
     <div className="App">
-      <Eventbind />
+      <ParentComponent />
     </div>
   );
 }
