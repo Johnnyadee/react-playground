@@ -22,9 +22,8 @@ function NameList() {
       skill: "Angular",
     },
   ];
-  const personList = person.map((person) => <Person person={person} />);
+  const personList = person.map((person) => <Person key={person.key} person={person} />);
   return <>{personList}</>;
 }
-  
+
 export default NameList;
-  
