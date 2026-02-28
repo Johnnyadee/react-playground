@@ -28,26 +28,31 @@ class Form extends Component {
       orange: event.target.value,
     });
   };
+  handleSubmit = (event) => {
+    alert(`${this.state.username} ${this.state.comments} ${this.state.orange}`);
+  };
 
   render() {
+    const { username, comments, orange } = this.state;
     return (
-      <form>
+      <form onSubmit={this.handleSubmit}>
         <div>
           <label>User ID </label>
-          <input type="text" value={this.state.username} onChange={this.handleUsernameChange} />
+          <input type="text" value={username} onChange={this.handleUsernameChange} />
         </div>
         <div>
           <label>Comments</label>
-          <textarea value={this.state.comments} onChange={this.handleCommentsChange}></textarea>
+          <textarea value={comments} onChange={this.handleCommentsChange}></textarea>
         </div>
         <div>
           <label>Orange</label>
-          <select value={this.state.orange} onChange={this.handleOrangeChange}>
+          <select value={orange} onChange={this.handleOrangeChange}>
             <option value="react">React</option>
             <option value="angular">Angular</option>
             <option value="vue">Vue</option>
           </select>
         </div>
+        <button type="submit"> Submit </button>
       </form>
     );
   }
