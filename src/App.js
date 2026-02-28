@@ -1,7 +1,8 @@
 // import React, { Component } from "react";0
 // import logo from "./logo.svg";
 import "./App.css";
-import NameList from "./Components/NameList";
+import Form from "./Components/Form";
+// import NameList from "./Components/NameList";
 // import UserGreeting from "./Components/UserGreeting";
 // import Eventbind from "./Components/Eventbind";
 // import ParentComponent from "./Components/ParentComponent";
@@ -15,7 +16,7 @@ import NameList from "./Components/NameList";
 function App() {
   return (
     <div className="App">
-      <NameList />
+      <Form />
     </div>
   );
 }
