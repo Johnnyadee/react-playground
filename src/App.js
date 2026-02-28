@@ -1,7 +1,8 @@
 // import React, { Component } from "react";0
 // import logo from "./logo.svg";
 import "./App.css";
-import Lifecycle from "./Components/Lifecycle";
+// import Lifecycle from "./Components/Lifecycle";
+import Refs from "./Components/Refs";
 // import Form from "./Components/Form";
 // import NameList from "./Components/NameList";
 // import UserGreeting from "./Components/UserGreeting";
@@ -17,7 +18,7 @@ import Lifecycle from "./Components/Lifecycle";
 function App() {
   return (
     <div className="App">
-      <Lifecycle /> 
+      <Refs />
     </div>
   );
 }
