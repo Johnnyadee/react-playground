@@ -1,7 +1,8 @@
 // import React, { Component } from "react";0
 // import logo from "./logo.svg";
 import "./App.css";
-import Form from "./Components/Form";
+import Lifecycle from "./Components/Lifecycle";
+// import Form from "./Components/Form";
 // import NameList from "./Components/NameList";
 // import UserGreeting from "./Components/UserGreeting";
 // import Eventbind from "./Components/Eventbind";
@@ -16,7 +17,7 @@ import Form from "./Components/Form";
 function App() {
   return (
     <div className="App">
-      <Form />
+      <Lifecycle /> 
     </div>
   );
 }
